@@ -20,7 +20,7 @@ const [nav,setNav] = useState(false)
 
       <div className='flex gap-2 items-center'>
         <div className='cursor-pointer mt-1' onClick={()=>setNav(!nav)}><MenuIcon /></div>
-        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl text-start pr-2'>Best<span className='font-bold'>Eats</span></h1>
+        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl text-start pr-2 cursor-default'>Best<span className='font-bold'>Eats</span></h1>
         <div className='hidden lg:flex bg-gray-300 p-1 rounded-full cursor-pointer'>
           <p className='text-sm bg-black text-white rounded-full p-2'>Delivery</p>
           <p className='text-sm p-2 px-2'>Pickup</p>
@@ -41,7 +41,7 @@ const [nav,setNav] = useState(false)
 
       <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300' : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300' }>
         <CloseIcon onClick={()=>setNav(!nav)} size={30} className='absolute top-5 right-4 cursor-pointer'/>
-        <h2 className='p-4 text-2xl cursor-pointer'>
+        <h2 className='p-4 text-2xl cursor-default'>
           Best<span className='font-bold'>Eats</span>
         </h2>
         <nav>
