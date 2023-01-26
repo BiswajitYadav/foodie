@@ -1,4 +1,5 @@
 import React from 'react';
+import Categories from './components/Categories';
 import Food from './components/Food';
 import HeadlineCards from './components/HeadlineCards';
 import Hero from './components/Hero';
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <HeadlineCards />
       <Food />
+      <Categories />
     </>
   )
 }

@@ -46,13 +46,13 @@ const [nav,setNav] = useState(false)
         </h2>
         <nav>
           <ul className='flex flex-col p-4 text-gray-800'>
-            <li className='text-xl py-4 flex cursor-pointer'><LocalShippingIcon className='mr-4'/>Order</li>
-            <li className='text-xl py-4 flex cursor-pointer'><FavoriteIcon className='mr-4'/>Favorite</li>
-            <li className='text-xl py-4 flex cursor-pointer'><WalletIcon className='mr-4'/>Wallet</li>
-            <li className='text-xl py-4 flex cursor-pointer'><HelpIcon className='mr-4'/>Help</li>
-            <li className='text-xl py-4 flex cursor-pointer'><LocalOfferIcon className='mr-4'/>Promotions</li>
-            <li className='text-xl py-4 flex cursor-pointer'><StarIcon className='mr-4'/>Best Ones</li>
-            <li className='text-xl py-4 flex cursor-pointer'><ShareIcon className='mr-4'/>Invite Friends</li>
+            <li className='text-xl py-4 pl-3 flex cursor-pointer hover:bg-gray-200 rounded-full  hover:scale-105 duration-300'><LocalShippingIcon className='mr-4'/>Order</li>
+            <li className='text-xl py-4 pl-3 flex cursor-pointer hover:bg-gray-200 rounded-full  hover:scale-105 duration-300'><FavoriteIcon className='mr-4'/>Favorite</li>
+            <li className='text-xl py-4 pl-3 flex cursor-pointer hover:bg-gray-200 rounded-full  hover:scale-105 duration-300'><WalletIcon className='mr-4'/>Wallet</li>
+            <li className='text-xl py-4 pl-3 flex cursor-pointer hover:bg-gray-200 rounded-full  hover:scale-105 duration-300'><HelpIcon className='mr-4'/>Help</li>
+            <li className='text-xl py-4 pl-3 flex cursor-pointer hover:bg-gray-200 rounded-full  hover:scale-105 duration-300'><LocalOfferIcon className='mr-4'/>Promotions</li>
+            <li className='text-xl py-4 pl-3 flex cursor-pointer hover:bg-gray-200 rounded-full  hover:scale-105 duration-300'><StarIcon className='mr-4'/>Best Ones</li>
+            <li className='text-xl py-4 pl-3 flex cursor-pointer hover:bg-gray-200 rounded-full  hover:scale-105 duration-300'><ShareIcon className='mr-4'/>Invite Friends</li>
           </ul>
         </nav>
       </div>
